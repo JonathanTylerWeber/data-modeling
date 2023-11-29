@@ -22,6 +22,7 @@ CREATE TABLE tickets
   to_country TEXT NOT NULL
 );
 
+
 INSERT INTO tickets
   (first_name, last_name, seat, departure, arrival, airline, from_city, from_country, to_city, to_country)
 VALUES
